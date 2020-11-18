@@ -37,7 +37,7 @@ public class DataCollectScreen{
 		co2Icon = new ImageIcon(getClass().getResource("/resources/co2.png"));
         jlIcon.setIcon(new ImageIcon(co2Icon.getImage().getScaledInstance(jlIcon.getWidth(), jlIcon.getHeight(), Image.SCALE_DEFAULT)));
 		
-        jlAge = new JLabel("Selecione a sua idade:");
+        jlAge = new JLabel("Select your age:");
         jlAge.setForeground(new Color(153, 0, 0));
         jlAge.setFont(new Font("Arial Narrow", Font.BOLD, 14));
         jlAge.setBounds(130, 232, 119, 23);
